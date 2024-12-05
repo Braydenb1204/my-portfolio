@@ -1,3 +1,12 @@
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 /* General Styles */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #1f1f1f;
+    background-color: #2b6777;
     color: white;
     padding: 20px;
     text-align: center;
@@ -35,8 +44,8 @@ section {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #c8d8e4;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
     position: fixed;
