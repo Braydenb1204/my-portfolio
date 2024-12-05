@@ -5,6 +5,25 @@ html {
     scroll-behavior: smooth;
 }
 
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+    header {
+        background-color: #5f487c;
+    }
+    section {
+        background-color: #333;
+        outline: 9px double;
+        outline-width: medium;
+        outline-color: #532f80;
+    }
+    h2 {
+        color: #fff;
+    }
+    footer {
+        background-color: #3f476b;
+    }
+}
 
 
 /* General Styles */
@@ -70,12 +89,16 @@ header, footer {
 }
 
 nav ul li {
-    display: block;
     text-align: center;
-    margin: 5px 0;
+    margin: 10px;
 }
 
 section {
     padding: 10px;
     margin: 10px;
+}
+
+button[id="ToggleTheme"] {
+    margin-left: 95%;
+
 }
